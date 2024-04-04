@@ -56,7 +56,7 @@ class Browser:
             height=HEIGHT,
             bg="white"
         )
-        # self.window.title("Browser")
+        self.window.title("Browser")
         self.canvas.pack(fill=tkinter.BOTH, expand=1)
         self.url = None
         self.tabs = []
